@@ -180,6 +180,10 @@ table .btn-link:active {
     background-color: var(--tblr-bg-surface)!important;
 }
 
+[data-bs-theme=dark] {
+    --bp-processing-bg: var(--tblr-bg-surface);
+}
+
 [data-bs-theme=dark] .dataTables_processing,
 [data-bs-theme=dark] .dt-processing {
     background: var(--tblr-bg-surface) !important;
