@@ -176,13 +176,18 @@ table .btn-link:active {
     border-radius: 0;
 }
 
+[data-bs-theme=dark] .dataTables_processing.card,
 [data-bs-theme=dark] .dt-processing.card {
-    background-color: var(--tblr-bg-surface)!important;
+    background-color: rgba(var(--tblr-body-bg-rgb), 0.8) !important;
+}
+
+[data-bs-theme=dark] {
+    --bp-processing-bg: rgba(var(--tblr-body-bg-rgb), 0.8);
 }
 
 [data-bs-theme=dark] .dataTables_processing,
 [data-bs-theme=dark] .dt-processing {
-    background: var(--tblr-bg-surface) !important;
+    background: rgba(var(--tblr-body-bg-rgb), 0.8) !important;
 }
 
 [data-bs-theme=dark] .dataTables_processing img,
