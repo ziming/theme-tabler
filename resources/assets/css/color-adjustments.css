@@ -141,7 +141,6 @@ html[data-bs-theme=dark] {
     --bp-tinymce-content-color: #c9c1d6;
 }
 
-/*
 [data-bs-theme=dark] .select2-container--bootstrap .select2-dropdown {
     background-color: var(--bp-select2-dropdown-bg);
     border-color: var(--bp-select2-dropdown-border-color);
